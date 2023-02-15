@@ -14,7 +14,7 @@
 - Copy and paste the link below to find the home page on netlify.
 
 ```
-
+https://luckyshrubhome.netlify.app/
 ```
 
 ## Why?
