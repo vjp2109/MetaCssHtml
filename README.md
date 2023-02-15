@@ -15,7 +15,7 @@
 * Copy and paste the link below to find the home page on netlify.
 
 ```
-https://fullstack-warfare.herokuapp.com/
+
 ```
 
 ## Why?
