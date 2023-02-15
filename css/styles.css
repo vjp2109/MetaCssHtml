@@ -43,7 +43,7 @@ a {
 
 #promo::before {
   content: "";
-  background-image: url("/grass2.jpeg");
+  background-image: url("/images/grass2.jpeg");
   position: absolute;
   top: 0px;
   right: 0px;
@@ -107,6 +107,8 @@ div > img {
 article {
   flex: 1;
 }
+
+/* Footer */
 
 footer {
   display: flex;
