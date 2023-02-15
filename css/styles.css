@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(222, 248, 222);
+  font-family: "Markazi Text", serif;
+  margin: 2rem 5% 3rem 5%;
+}
+
+header > img {
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navbar */
+
+nav {
+  background-color: rgb(128, 38, 38);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 15px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  color: azure;
+}
+/* PROMO SECTION */
+#promo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#promo::before {
+  content: "";
+  background-image: url("/grass2.jpeg");
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+h1 {
+  position: relative;
+  font-size: 3rem;
+  color: darkred;
+  margin-left: 15px;
+}
+#promoText {
+  position: relative;
+  color: darkred;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 15px;
+}
+
+/* Sub sections */
+.subsection {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: darkred;
+  border-radius: 10px;
+}
+.subsection a {
+  font-weight: bold;
+  color: green;
+}
+
+.subsection img {
+  width: 100%;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: rgb(168, 202, 168);
+}
+.subsection h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: azure;
+}
+
+.subsection p {
+  text-align: justify;
+  color: azure;
+}
+
+section {
+  display: flex;
+}
+
+div > img {
+  display: block;
+  width: 50px;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+#footer {
+  text-align: right;
+  margin-top: 50px;
+}
